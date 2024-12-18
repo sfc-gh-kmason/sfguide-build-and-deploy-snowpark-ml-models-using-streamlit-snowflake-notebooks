@@ -5,5 +5,5 @@ dependencies:
   - black=24.4.2
   - nbconvert=7.10.0
   - snowflake-ml-python=1.6.0
-  - snowflake-snowpark-python=
+  - snowflake-snowpark-python
   - streamlit=1.35.0
