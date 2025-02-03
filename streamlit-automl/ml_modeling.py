@@ -591,6 +591,7 @@ class AutoMLModeling:
                                                         metrics=st.session_state[
                                                             "pipeline_metrics"
                                                         ],
+                                                        comment = '{"origin": "sf_sit", "name": "ml_sidekick", "version": {"major":1, "minor":0}, "attributes":{"component":"model"}}'
                                                     )
                                                     st.toast("Model Registered")
 
